@@ -1,0 +1,145 @@
+a:hover
+{
+    text-decoration: none;
+}
+
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 200%;
+}
+
+button
+{
+    margin: 0.5%;
+}
+
+nav
+{
+    display: none;
+}
+
+footer
+{
+    background-color: #1a1616;
+    padding: 3%;
+}
+
+/*Classes*/
+
+.alert-info
+{
+    font-size: 120%;
+}
+
+.btn-block
+{
+    margin:0;
+    padding:2%;
+}
+
+.btn-link
+{
+    color: #111111;
+    font-size: 100%;
+    font-variant: small-caps;
+}
+
+.btn-link:hover
+{
+    color: darkred;
+    text-decoration: none;
+}
+
+.container-fluid
+{
+    margin-top: 5%;
+}
+
+.contact
+{
+    display: inline;
+}
+
+.disclaimer
+{
+    color: gray;
+    font-size: 70%;
+}
+
+.quote
+{
+    font-size: 140%;
+    font-variant: small-caps;
+}
+
+.fa-navicon
+{
+    font-size: 190%;
+    margin-top: 3%;
+}
+
+.fa-navicon:hover
+{
+    cursor: pointer;
+}
+
+.fa-question-circle-o
+{
+    cursor: pointer;
+    float: right;
+    font-size: 150%;
+    margin-top: 8%;
+}
+
+.fa-envelope-o
+{
+    font-variant: small-caps;
+    font-size: 170%;
+}
+
+.fa-phone
+{
+    font-size: 110%;
+}
+
+.fa-mobile
+{
+    font-size: 200%;
+}
+
+.social
+{
+    text-align: center;
+    color: darkred;
+}
+
+.alert-info
+{
+    padding-bottom: -5%;
+}
+
+/*Search bar stuff*/
+
+input[type=text] {
+    width: 12em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1em;
+    background-color: white;
+    background-image: url('searchicon.png'); /*not working*/
+    background-position: 0.62em 0.62em; 
+    background-repeat: no-repeat;
+    padding: 0.5em 4.5em 0.5em 2em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
